@@ -4,9 +4,9 @@
 class Specchio < Formula
   desc "Interactive setup CLI for Specchio iOS development environment"
   homepage "https://github.com/Alexintosh/specchio-cli"
-  url "https://github.com/Alexintosh/specchio-cli/archive/refs/tags/v1.0.6.tar.gz"
-  sha256 "9f628c40c51bb1595d296f626d17986acc47adb54f3a9ca89ca420cfce3424d4"
-  version "1.0.6"
+  url "https://github.com/Alexintosh/specchio-cli/archive/refs/tags/v1.0.7.tar.gz"
+  sha256 "5f6dc42277bfd00702271415bf9b50b94dda86df72d829740fe626cc92ab737c"
+  version "1.0.7"
   license "MIT"
 
   def install
