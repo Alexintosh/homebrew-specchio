@@ -5,18 +5,18 @@ class Specchio < Formula
   desc "Interactive setup CLI for Specchio iOS development environment"
   homepage "https://github.com/Alexintosh/specchio-cli"
   url "https://github.com/Alexintosh/specchio-cli.git",
-      tag:      "v1.0.1",
+      tag:      "v1.0.4",
       revision: "main"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/Alexintosh/specchio-cli/releases/download/v1.0.1"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "CHECKSUM_ARM64_SONOMA"
-    sha256 cellar: :any_skip_relocation, arm64_ventura:  "CHECKSUM_ARM64_VENTURA"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "CHECKSUM_ARM64_MONTEREY"
-    sha256 cellar: :any_skip_relocation, x86_64_sonoma:   "CHECKSUM_X64_SONOMA"
-    sha256 cellar: :any_skip_relocation, x86_64_ventura:  "CHECKSUM_X64_VENTURA"
-    sha256 cellar: :any_skip_relocation, x86_64_monterey: "CHECKSUM_X64_MONTEREY"
+    root_url "https://github.com/Alexintosh/specchio-cli/releases/download/v1.0.4"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:   "2ca02dbcf15b30fa2c9996531bfe6ac347fdb2d6c8850d8f21d3eb1f0f0a1ed8"
+    sha256 cellar: :any_skip_relocation, arm64_ventura:  "941a2aeb79166b8e9ec438864c7df76545a045dc90e70a24c6de75432544bcc3"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "941a2aeb79166b8e9ec438864c7df76545a045dc90e70a24c6de75432544bcc3"
+    sha256 cellar: :any_skip_relocation, x86_64_sonoma:   "941a2aeb79166b8e9ec438864c7df76545a045dc90e70a24c6de75432544bcc3"
+    sha256 cellar: :any_skip_relocation, x86_64_ventura:  "941a2aeb79166b8e9ec438864c7df76545a045dc90e70a24c6de75432544bcc3"
+    sha256 cellar: :any_skip_relocation, x86_64_monterey: "941a2aeb79166b8e9ec438864c7df76545a045dc90e70a24c6de75432544bcc3"
   end
 
   depends_on "bun"
