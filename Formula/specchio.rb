@@ -9,7 +9,9 @@ class Specchio < Formula
   license "MIT"
 
   def install
-    bin.install "specchio"
+    # Find and install the specchio binary from the extracted archive
+    libexec.install Dir["*"].join("specchio")
+    bin.write_exec_script libexec/"specchio", "specchio"
   end
 
   test do
