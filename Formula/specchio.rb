@@ -4,9 +4,8 @@
 class Specchio < Formula
   desc "Interactive setup CLI for Specchio iOS development environment"
   homepage "https://github.com/Alexintosh/specchio-cli"
-  url "https://github.com/Alexintosh/specchio-cli.git",
-      tag:      "v1.0.4",
-      revision: "main"
+  url "https://github.com/Alexintosh/specchio-cli/archive/refs/tags/v1.0.4.tar.gz"
+  sha256 "DUMMY_SHA256"  # This will be ignored since we use bottles
   license "MIT"
 
   bottle do
@@ -18,8 +17,6 @@ class Specchio < Formula
     sha256 cellar: :any_skip_relocation, x86_64_ventura:  "941a2aeb79166b8e9ec438864c7df76545a045dc90e70a24c6de75432544bcc3"
     sha256 cellar: :any_skip_relocation, x86_64_monterey: "941a2aeb79166b8e9ec438864c7df76545a045dc90e70a24c6de75432544bcc3"
   end
-
-  depends_on "bun"
 
   def install
     bin.install "specchio"
